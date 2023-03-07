@@ -15,6 +15,27 @@
     <Deterministic>true</Deterministic>
     <NuGetPackageImportStamp>
     </NuGetPackageImportStamp>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>true</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <UpdateUrl>http://localhost/CF_16KI-16J-KO-CI/</UpdateUrl>
+    <TargetCulture>fr</TargetCulture>
+    <ProductName>CF_16KI-16J-KO-CI</ProductName>
+    <PublisherName>Patrick CHAUTARD</PublisherName>
+    <SuiteName>Arbitrage_JA2</SuiteName>
+    <ApplicationRevision>1</ApplicationRevision>
+    <ApplicationVersion>2.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -35,6 +56,24 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
+  <PropertyGroup>
+    <TargetZone>LocalIntranet</TargetZone>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>true</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationManifest>Properties\app.manifest</ApplicationManifest>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>true</SignManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>B4FE0824B5AC8CB6704C6AD50F90371B241C6A6F</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>CF_16KI-16J-KO-CI_7_TemporaryKey.pfx</ManifestKeyFile>
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
       <HintPath>..\packages\EntityFramework.6.4.4\lib\net45\EntityFramework.dll</HintPath>
@@ -42,8 +81,8 @@
     <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
       <HintPath>..\packages\EntityFramework.6.4.4\lib\net45\EntityFramework.SqlServer.dll</HintPath>
     </Reference>
-    <Reference Include="EPPlus, Version=6.1.2.0, Culture=neutral, PublicKeyToken=ea159fdaa78159a1, processorArchitecture=MSIL">
-      <HintPath>..\packages\EPPlus.6.1.2\lib\net462\EPPlus.dll</HintPath>
+    <Reference Include="EPPlus, Version=6.1.3.0, Culture=neutral, PublicKeyToken=ea159fdaa78159a1, processorArchitecture=MSIL">
+      <HintPath>..\packages\EPPlus.6.1.3\lib\net462\EPPlus.dll</HintPath>
     </Reference>
     <Reference Include="EPPlus.Interfaces, Version=6.1.1.0, Culture=neutral, PublicKeyToken=a694d7f3b0907a61, processorArchitecture=MSIL">
       <HintPath>..\packages\EPPlus.Interfaces.6.1.1\lib\net462\EPPlus.Interfaces.dll</HintPath>
@@ -57,11 +96,14 @@
     <Reference Include="ExcelDataReader.DataSet, Version=3.6.0.0, Culture=neutral, PublicKeyToken=93517dbe6a4012fa, processorArchitecture=MSIL">
       <HintPath>..\packages\ExcelDataReader.DataSet.3.6.0\lib\net35\ExcelDataReader.DataSet.dll</HintPath>
     </Reference>
-    <Reference Include="Microsoft.IO.RecyclableMemoryStream, Version=1.4.1.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
-      <HintPath>..\packages\Microsoft.IO.RecyclableMemoryStream.1.4.1\lib\net46\Microsoft.IO.RecyclableMemoryStream.dll</HintPath>
+    <Reference Include="Microsoft.IO.RecyclableMemoryStream, Version=2.3.1.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.IO.RecyclableMemoryStream.2.3.1\lib\net462\Microsoft.IO.RecyclableMemoryStream.dll</HintPath>
     </Reference>
     <Reference Include="PresentationCore" />
     <Reference Include="System" />
+    <Reference Include="System.Buffers, Version=4.0.3.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Buffers.4.5.1\lib\net461\System.Buffers.dll</HintPath>
+    </Reference>
     <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System.configuration" />
     <Reference Include="System.Core" />
@@ -75,6 +117,16 @@
       <HintPath>..\packages\System.Data.SQLite.Linq.1.0.117.0\lib\net46\System.Data.SQLite.Linq.dll</HintPath>
     </Reference>
     <Reference Include="System.IO.Compression" />
+    <Reference Include="System.Memory, Version=4.0.1.2, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Memory.4.5.5\lib\net461\System.Memory.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Numerics" />
+    <Reference Include="System.Numerics.Vectors, Version=4.1.4.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Numerics.Vectors.4.5.0\lib\net46\System.Numerics.Vectors.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.CompilerServices.Unsafe, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Runtime.CompilerServices.Unsafe.6.0.0\lib\net461\System.Runtime.CompilerServices.Unsafe.dll</HintPath>
+    </Reference>
     <Reference Include="System.Security" />
     <Reference Include="System.Threading.Tasks" />
     <Reference Include="System.Xml.Linq" />
@@ -94,11 +146,35 @@
     <Compile Include="FormAbout.Designer.cs">
       <DependentUpon>FormAbout.cs</DependentUpon>
     </Compile>
+    <Compile Include="FormArbre.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormArbre.Designer.cs">
+      <DependentUpon>FormArbre.cs</DependentUpon>
+    </Compile>
     <Compile Include="FormMain.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="FormMain.Designer.cs">
       <DependentUpon>FormMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormOpen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormOpen.Designer.cs">
+      <DependentUpon>FormOpen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormPoule.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormPoule.Designer.cs">
+      <DependentUpon>FormPoule.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormSaisieScore.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormSaisieScore.designer.cs">
+      <DependentUpon>FormSaisieScore.cs</DependentUpon>
     </Compile>
     <Compile Include="FormSnake.cs">
       <SubType>Form</SubType>
@@ -106,16 +182,42 @@
     <Compile Include="FormSnake.Designer.cs">
       <DependentUpon>FormSnake.cs</DependentUpon>
     </Compile>
-    <Compile Include="Modeles\ClubNombre.cs" />
+    <Compile Include="Gestion\BarragePartie.cs" />
+    <Compile Include="Gestion\ComboboxItem.cs" />
+    <Compile Include="Gestion\Extensions.cs" />
+    <Compile Include="Gestion\IniFile.cs" />
+    <Compile Include="Gestion\Manche.cs" />
+    <Compile Include="Gestion\ManchesPoints.cs" />
+    <Compile Include="Gestion\PointsParties.cs" />
+    <Compile Include="Modeles\Categorie.cs" />
+    <Compile Include="Modeles\Classement.cs" />
+    <Compile Include="Gestion\ClubNombre.cs" />
+    <Compile Include="Gestion\GerePoule.cs" />
+    <Compile Include="Modeles\Competition.cs" />
+    <Compile Include="Modeles\Division.cs" />
+    <Compile Include="Modeles\Epreuve.cs" />
     <Compile Include="Modeles\Joueur.cs" />
-    <Compile Include="Modeles\Param.cs" />
+    <Compile Include="Modeles\Partie.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Gestion\SingletonOutils.cs" />
     <EmbeddedResource Include="FormAbout.resx">
       <DependentUpon>FormAbout.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="FormArbre.resx">
+      <DependentUpon>FormArbre.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FormMain.resx">
       <DependentUpon>FormMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormOpen.resx">
+      <DependentUpon>FormOpen.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormPoule.resx">
+      <DependentUpon>FormPoule.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormSaisieScore.resx">
+      <DependentUpon>FormSaisieScore.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FormSnake.resx">
       <DependentUpon>FormSnake.cs</DependentUpon>
@@ -130,7 +232,9 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <None Include="CF_16KI-16J-KO-CI_7_TemporaryKey.pfx" />
     <None Include="packages.config" />
+    <None Include="Properties\app.manifest" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -164,6 +268,69 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\poule.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Tableau_64.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\validation.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\abandon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gomme.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gomme1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\validation1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\abandon1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\podiun_64.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\remplir_64.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\validation_64.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\printer_64.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Tree_64.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\precedent_64.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\precedent_641.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\suivant_64.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.8">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.8 %28x86 et x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\OpenFile.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FileOpen_48.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">

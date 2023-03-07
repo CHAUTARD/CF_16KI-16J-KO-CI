@@ -1,4 +1,8 @@
-﻿using System;
+﻿/*
+ * User: CHAUTARD
+ * Date: 01/03/2023
+ */
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;

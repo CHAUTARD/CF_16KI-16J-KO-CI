@@ -1,4 +1,8 @@
-﻿using System.Reflection;
+﻿/*
+ * User: CHAUTARD
+ * Date: 01/03/2023
+ */
+using System.Reflection;
 using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 

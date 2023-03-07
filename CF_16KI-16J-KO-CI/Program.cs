@@ -1,7 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+﻿/*
+ * Ecran de démarrage
+ * User: CHAUTARD
+ * Date: 06/03/2023
+ */
+using System;
 using System.Windows.Forms;
 
 namespace CF_16KI_16J_KO_CI
@@ -16,7 +18,7 @@ namespace CF_16KI_16J_KO_CI
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new FormMain());
+            Application.Run(new FormOpen());
         }
     }
 }

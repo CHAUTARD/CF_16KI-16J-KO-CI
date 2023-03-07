@@ -1,4 +1,8 @@
-﻿namespace CF_16KI_16J_KO_CI
+﻿/*
+ * User: CHAUTARD
+ * Date: 01/03/2023
+ */
+namespace CF_16KI_16J_KO_CI
 {
     partial class FormAbout
     {
@@ -65,7 +69,9 @@
             this.MinimizeBox = false;
             this.Name = "FormAbout";
             this.ShowIcon = false;
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
             this.Text = "A propos de CF_16KI-16J-KO-CI";
+            this.TopMost = true;
             this.ResumeLayout(false);
             this.PerformLayout();
 

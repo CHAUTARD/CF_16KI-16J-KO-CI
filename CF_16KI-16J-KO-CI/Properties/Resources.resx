@@ -118,25 +118,76 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="Snack_64" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Snack_64.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Tree_64" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Tree_64.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="About_32" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\About_32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="validation_64" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\validation_64.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Correct_64" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Correct_64.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="abandon1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\abandon1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Tableau_64" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Tableau_64.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="poule" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\poule.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="printer_48" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\printer_48.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Close_64" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Close_64.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="validation1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\validation1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="remplir_64" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\remplir_64.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Snack_64" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Snack_64.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="gomme" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\gomme.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="printer_64" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\printer_64.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="abandon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\abandon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="About_32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\About_32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="suivant_64" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\suivant_64.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="validation" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\validation.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="precedent_64" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\precedent_64.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="About_64" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\About_64.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="poule" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\poule.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="OpenFile" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\OpenFile.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="podiun_64" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\podiun_64.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="gomme1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\gomme1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="precedent_641" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\precedent_641.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Close_64" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Close_64.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FileOpen_48" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FileOpen_48.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>
