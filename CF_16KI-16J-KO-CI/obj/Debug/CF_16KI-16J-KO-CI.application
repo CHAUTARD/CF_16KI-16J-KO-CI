@@ -14,14 +14,14 @@
     <framework targetVersion="4.8" profile="Full" supportedRuntime="4.0.30319" />
   </compatibleFrameworks>
   <dependency>
-    <dependentAssembly dependencyType="install" codebase="CF_16KI-16J-KO-CI.exe.manifest" size="15184">
+    <dependentAssembly dependencyType="install" codebase="CF_16KI-16J-KO-CI.exe.manifest" size="21317">
       <assemblyIdentity name="CF_16KI-16J-KO-CI.exe" version="2.0.0.1" publicKeyToken="0000000000000000" language="fr" processorArchitecture="msil" type="win32" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>MHCjyWOCjZx0c08pgtpB0pm91hGLEV9tIhke2XchDjo=</dsig:DigestValue>
+        <dsig:DigestValue>Ly+CQyfLxGW56fSMrI1nnvWBVw3alYq8mzjrm7oVM3U=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
